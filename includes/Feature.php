@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WoocommerceSubscriptionHelper;
 if (! defined('ABSPATH')) { exit; }
-final class WoocommerceSubscriptionHelperFeature {
+final class Feature {
     private const OPTION = 'woocommerce_subscription_helper_enabled';
     private const SLUG = 'woocommerce-subscription-helper';
     private const TITLE = 'WooCommerce Subscription Helper';
